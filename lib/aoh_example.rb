@@ -17,7 +17,7 @@ def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
   array = []
-  array.push DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_
+  array.push(DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_)
 end
 
 def aoh_lookup(aoh, row, key)
